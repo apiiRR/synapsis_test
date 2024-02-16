@@ -1,0 +1,18 @@
+{
+    "code": 200,
+    "status": true,
+    "message": "success",
+    "data": {
+        "user_id": "h07ff6v0dx",
+        "nik": "SYN10",
+        "system_role_id": 4,
+        "system_role": "Superintendent",
+        "name": "Danu Dev",
+        "email": "danudev@mail.com",
+        "phone": "2012319032",
+        "departement_id": "1",
+        "departement": "",
+        "site_location_id": "2",
+        "site_location": "037C KEL"
+    }
+}

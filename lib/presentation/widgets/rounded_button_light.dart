@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../utils/app_styles.dart';
 
@@ -11,7 +10,7 @@ class RoundedButtonLight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 100.w,
+      width: 100,
       height: 50,
       child: ElevatedButton(
         onPressed: () {},
@@ -22,8 +21,7 @@ class RoundedButtonLight extends StatelessWidget {
                 borderRadius: BorderRadius.circular(4))),
         child: Text(
           "Fingerprint",
-          style: kInterSemibold.copyWith(
-              color: kPrimaryColor, fontSize: 15),
+          style: kInterSemibold.copyWith(color: kPrimaryColor, fontSize: 15),
         ),
       ),
     );

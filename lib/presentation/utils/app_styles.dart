@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 const kWhiteColor = Color(0xFFFFFFFF);
 const kBlackColor = Color(0xFF000000);
@@ -13,22 +12,22 @@ const kSecondaryColor = Color(0xFFD6E4EC);
 const kGreenColor = Color(0xFF107C41);
 const kGapColor = Color(0xFFEEF6F9);
 
-final kInterBold = GoogleFonts.inter(
+final kInterBold = TextStyle(
   fontWeight: FontWeight.w700,
 );
 
-final kInterSemibold = GoogleFonts.inter(
+final kInterSemibold = TextStyle(
   fontWeight: FontWeight.w600,
 );
 
-final kInterMedium = GoogleFonts.inter(
+final kInterMedium = TextStyle(
   fontWeight: FontWeight.w500,
 );
 
-final kInterRegular = GoogleFonts.inter(
+final kInterRegular = TextStyle(
   fontWeight: FontWeight.w400,
 );
 
-final kInterLight = GoogleFonts.inter(
+final kInterLight = TextStyle(
   fontWeight: FontWeight.w300,
 );

@@ -1,0 +1,73 @@
+{
+    "code": 200,
+    "status": true,
+    "message": "success",
+    "data": {
+        "id": "4l3bjupuwj",
+        "name": "Challenge SYN",
+        "question": [
+            {
+                "questionid": "njqzanoypy",
+                "section": "Section 1 contoh",
+                "number": "1",
+                "type": "multiple_choice",
+                "question_name": "Pertanyaan type multiple choice :) ",
+                "scoring": false,
+                "options": [
+                    {
+                        "optionid": "2birnjmixc",
+                        "option_name": "Opsi 1",
+                        "points": 1,
+                        "flag": 0
+                    },
+                    {
+                        "optionid": "zaytcacxyb",
+                        "option_name": "Opsi 2",
+                        "points": 2,
+                        "flag": 0
+                    },
+                    {
+                        "optionid": "qltuwc6w9u",
+                        "option_name": "Opsi 3",
+                        "points": 3,
+                        "flag": 0
+                    },
+                    {
+                        "optionid": "brthzw3sbq",
+                        "option_name": "Opsi 4",
+                        "points": 4,
+                        "flag": 0
+                    },
+                    {
+                        "optionid": "02orkofnix",
+                        "option_name": "Tidak",
+                        "points": 5,
+                        "flag": 0
+                    }
+                ]
+            },
+            {
+                "questionid": "frukeogick",
+                "section": "Section 2",
+                "number": "2",
+                "type": "checkbox",
+                "question_name": "Silahkan handle pertanyaan dengan type checkbox ini :) ",
+                "scoring": false,
+                "options": [
+                    {
+                        "optionid": "xcblsjkskc",
+                        "option_name": "Checkbox 1",
+                        "points": 4,
+                        "flag": 0
+                    },
+                    {
+                        "optionid": "gki8tnqxcl",
+                        "option_name": "Checkbox 2",
+                        "points": 5,
+                        "flag": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

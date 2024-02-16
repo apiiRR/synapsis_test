@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../utils/app_styles.dart';
 
-class AssessmentPage extends StatelessWidget {
-  const AssessmentPage({super.key});
+class ListAssessmentPage extends StatelessWidget {
+  const ListAssessmentPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +24,7 @@ class AssessmentPage extends StatelessWidget {
               height: 16,
             ),
             ListView.builder(
-              physics: const NeverScrollableScrollPhysics(),
+                physics: const NeverScrollableScrollPhysics(),
                 itemCount: 8,
                 shrinkWrap: true,
                 padding: EdgeInsets.zero,
@@ -33,7 +32,7 @@ class AssessmentPage extends StatelessWidget {
                   return Container(
                     margin: const EdgeInsets.only(bottom: 14),
                     padding: const EdgeInsets.all(12),
-                    width: 100.w,
+                    width: 100,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(4),
                         border: Border.all(color: kGreyPrimaryColor)),

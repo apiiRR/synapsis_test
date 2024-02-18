@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../utils/app_styles.dart';
+import '../../utils/app_styles.dart';
 
 class QuestionPage extends StatefulWidget {
   const QuestionPage({super.key});
